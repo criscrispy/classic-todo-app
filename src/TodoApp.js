@@ -9,8 +9,6 @@ import Grid from '@material-ui/core/Grid';
 
 import useTodoState from "./hooks/useTodoState.js"
 
-import './TodoApp.css'
-
 function TodoApp() {
     const initialTodos = JSON.parse(window.localStorage.getItem('todos') || '[]');
 
@@ -26,8 +24,7 @@ function TodoApp() {
                 padding: 0,
                 margin: 0,
                 minHeight: '100vh',
-                backgroundColor: '#dddddd'
-
+                backgroundColor: '#dddddd',
             }}
             elevation={0}
         >
