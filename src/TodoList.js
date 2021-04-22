@@ -25,7 +25,6 @@ function TodoList({ todos, removeTodo, toggleTodo, editTodo }) {
                                 id={todo.id}
                                 completed={todo.completed} */
                                 key={todo.id}
-                                completed={todo.completed}
                                 removeTodo={removeTodo}
                                 toggleTodo={toggleTodo}
                                 editTodo={editTodo}
